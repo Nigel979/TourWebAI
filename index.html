@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MAXJOELTOURISM</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f0f8ff;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #0074D9, #005288);
+      padding: 1.5rem 1rem;
+      color: white;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+
+    nav {
+      background: #ffffff;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      text-decoration: none;
+      font-weight: 600;
+      color: #0074D9;
+      border-bottom: 2px solid transparent;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      border-bottom: 2px solid #0074D9;
+      color: #005288;
+    }
+
+    .hero {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+
+    .hero img {
+      width: 100%;
+      height: auto;
+      max-height: 90vh;
+      object-fit: cover;
+      display: block;
+    }
+
+    .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(0, 0, 0, 0.5);
+      padding: 2rem;
+      border-radius: 12px;
+      max-width: 90%;
+    }
+
+    .hero-text h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      background-color: #0074D9;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .hero-text h2 {
+        font-size: 1.5rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      nav a {
+        padding: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>MAXJOELTOURISM</h1>
+  </header>
+
+  <nav>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+
+  <div class="hero">
+    <img src="https://cdn.uniacco.com/blog/wp-content/uploads/2022/08/05092825/david-rodrigo-Fr6zexbmjmc-unsplash.jpg" alt="Dubai Landscape">
+    <div class="hero-text">
+      <h2>Discover Dubai Like Never Before</h2>
+      <p>Your journey begins here with MaxJoelTourism Pvt. Ltd.</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 MaxJoelTourism Pvt. Ltd. | All rights reserved.
+  </footer>
+
+</body>
+</html>
